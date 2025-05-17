@@ -1,0 +1,279 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #000;
+            color: #fff;
+            overflow-x: hidden;
+        }
+        
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* قسم العنوان الرئيسي */
+        .about-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .about-header i {
+            font-size: 60px;
+            color: #c7a17a;
+            margin-bottom: 20px;
+        }
+        
+        .about-header h1 {
+            font-size: 36px;
+            color: #c7a17a;
+            margin-bottom: 15px;
+        }
+        
+        .about-header p {
+            font-size: 18px;
+            color: #aaa;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        
+        /* قسم قصة المقهى */
+        .story-section {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 60px;
+            flex-wrap: wrap;
+        }
+        
+        .story-content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .story-image {
+            flex: 1;
+            min-width: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        
+        .story-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+        
+        .story-image:hover img {
+            transform: scale(1.05);
+        }
+        
+        .section-title {
+            color: #c7a17a;
+            font-size: 28px;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            width: 50%;
+            height: 3px;
+            background: #c7a17a;
+        }
+        
+        .story-text {
+            color: #ddd;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        
+        /* قسم القيم */
+        .values-section {
+            margin-bottom: 60px;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .value-card {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border-bottom: 3px solid #c7a17a;
+        }
+        
+        .value-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(199, 161, 122, 0.1);
+        }
+        
+        .value-icon {
+            font-size: 40px;
+            color: #c7a17a;
+            margin-bottom: 20px;
+        }
+        
+        .value-title {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        
+        .value-description {
+            color: #aaa;
+            line-height: 1.6;
+        }
+        
+        /* قسم الفريق */
+        .team-section {
+            margin-bottom: 60px;
+        }
+        
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .member-card {
+            background: #1a1a1a;
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .member-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .member-image {
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .member-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .member-card:hover .member-image img {
+            transform: scale(1.1);
+        }
+        
+        .member-info {
+            padding: 20px;
+        }
+        
+        .member-name {
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .member-position {
+            color: #c7a17a;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .member-bio {
+            color: #aaa;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        /* قسم الجوائز */
+        .awards-section {
+            margin-bottom: 60px;
+        }
+        
+        .awards-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .award-card {
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .award-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        
+        .award-icon {
+            font-size: 40px;
+            color: #c7a17a;
+        }
+        
+        .award-year {
+            color: #c7a17a;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .award-title {
+            color: #fff;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        
+        .award-description {
+            color: #aaa;
+            font-size: 14px;
+        }
+        
+        /* التكيف مع الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            .about-header h1 {
+                font-size: 28px;
+            }
+            
+            .about-header p {
+                font-size: 16px;
+            }
+            
+            .section-title {
+                font-size: 24px;
+            }
+            
+            .story-section {
+                flex-direction: column-reverse;
+            }
+            
+            .member-image {
+                height: 250px;
+            }
+        }

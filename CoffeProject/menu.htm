@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menu-section">
+    <div class="menu-header">
+        <i class='bx bx-coffee-togo'></i>
+        <h2>قائمة المشروبات</h2>
+        <p>تذوق أروع النكهات المختارة بعناية</p>
+    </div>
+
+    <div class="menu-categories">
+        <button class="category-btn active" data-category="hot">المشروبات الساخنة</button>
+        <button class="category-btn" data-category="cold">المشروبات الباردة</button>
+        <button class="category-btn" data-category="desserts">الحلويات</button>
+    </div>
+
+    <div class="menu-items">
+        <!-- المشروبات الساخنة -->
+        <div class="items-category active" id="hot-items">
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>إسبريسو <span class="price">18 ر.س</span></h3>
+                    <p>قهوة مركزة بطعم قوي ورائحة زكية</p>
+                </div>
+                <span class="item-badge">الأكثر طلباً</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>كابتشينو <span class="price">22 ر.س</span></h3>
+                    <p>إسبريسو مع حليب مبخر ورغوة ناعمة</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>قهوة تركية <span class="price">20 ر.س</span></h3>
+                    <p>قهوة عربية أصيلة بطعم غني ورائحة فواحة</p>
+                </div>
+                <span class="item-badge">جديد</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>لاتيه الفانيليا <span class="price">25 ر.س</span></h3>
+                    <p>إسبريسو مع حليب وخلاصة الفانيليا الطبيعية</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- المشروبات الباردة -->
+        <div class="items-category" id="cold-items">
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>آيس كوفي <span class="price">24 ر.س</span></h3>
+                    <p>قهوة مثلجة مع حليب وسكر حسب الرغبة</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>فرابيه موكا <span class="price">28 ر.س</span></h3>
+                    <p>مزيج من القهوة، الشوكولاتة، الحليب والثلج</p>
+                </div>
+                <span class="item-badge">الأكثر طلباً</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>قهوة مثلجة بالنعناع <span class="price">26 ر.س</span></h3>
+                    <p>قهوة باردة مع نعناع طازج وثلج</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- الحلويات -->
+        <div class="items-category" id="desserts-items">
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>تشيز كيك التوت <span class="price">30 ر.س</span></h3>
+                    <p>تشيز كيك كلاسيكي مع صلصة توت طازجة</p>
+                </div>
+                <span class="item-badge">جديد</span>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>كرواسون الشوكولاتة <span class="price">18 ر.س</span></h3>
+                    <p>كرواسون هش مع حشوة شوكولاتة ذائبة</p>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>موس الكراميل <span class="price">25 ر.س</span></h3>
+                    <p>موس كريمي بنكهة الكراميل المملح</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-footer">
+        <p>جميع الأسعار شاملة الضريبة</p>
+        <button class="btn download-btn">
+            <i class='bx bx-download'></i> تحميل القائمة الكاملة
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
