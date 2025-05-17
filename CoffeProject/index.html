@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/nediaq.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <button class="mobile-menu-toggle" id="mobileToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="sidebar">
+        <div class="logo">
+            <h2>مقهى القهوة</h2>
+        </div>
+        <ul class="menu">
+            <li><a href="#" class="active" id="home"><i class="fas fa-home"></i> الصفحة الرئيسية</a></li>
+            <li><a href="about_us.html" id="about"><i class="fas fa-info-circle"></i> عن المقهى</a></li>
+            <li><a href="menu.htm" id="contact"><i class="fas fa-envelope"></i> قائمة</a></li>
+            <li><a href="#" id="reservations"><i class="fas fa-calendar-alt"></i> الحجوزات</a></li>
+            <li><a href="#" id="shop"><i class="fas fa-store"></i> المتجر الإلكتروني</a></li>
+            <li><a href="#" id="contact"><i class="fas fa-envelope"></i> التواصل</a></li>
+        </ul>
+        <button class="toggle-btn" id="toggleBtn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+    <div class="content" id="mainContent">
+        <!-- قسم الهيرو -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>استمتع بأجود أنواع القهوة</h1>
+                <p>في أجواء هادئة ومريحة، نقدم لكم تشكيلة مميزة من القهوة العالمية والمشروبات المبتكرة والحلويات اللذيذة. مكان مثالي للعمل والاسترخاء.</p>
+                <div>
+                    <a href="#" class="btn btn-outline">عرض القائمة</a>
+                    <a href="#" class="btn">حجز طاولة</a>
+                </div>
+            </div>
+        </section>
+        <!-- start featuers -->
+                 <!-- مميزات المقهى -->
+        <section class="features">
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-coffee"></i>
+                </div>
+                <h3>قهوة مميزة</h3>
+                <p>نقدم تشكيلة مميزة من حبوب القهوة المختارة بعناية من أفضل المزارع العالمية، محمصة باحترافية لتحقيق النكهة المثالية.</p>
+            </div>
+            
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>أوقات عمل ممتدة</h3>
+                <p>مفتوحون يومياً من الساعة 7 صباحاً حتى 12 مساءً، لتوفير مساحة مريحة للعمل والاجتماعات في أي وقت.</p>
+            </div>
+            
+            <div class="feature-box">
+                <div class="feature-icon">
+                    <i class="fas fa-wifi"></i>
+                </div>
+                <h3>إنترنت سريع</h3>
+                <p>اتصال إنترنت فائق السرعة مجاناً للعمل أو الدراسة، مع مقابس كهرباء متوفرة بكل طاولة لشحن أجهزتك.</p>
+            </div>
+        </section>
+         <!-- end featuers -->
+          <!--strat testimonial  -->
+          <section class="testimonials">
+            <div class="testimonials-container">
+                <div class="section-title">
+                    <h2>آراء عملائنا</h2>
+                </div>
+                
+                <div class="testimonial-slider">
+                    <div class="testimonial">
+                        <p class="testimonial-text">"أفضل مقهى في المدينة! القهوة رائعة والجو هادئ ومريح للعمل. الموظفون ودودون والخدمة سريعة."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="Imges/translation/ahmad.png" alt="أحمد">
+                            </div>
+                            <div class="author-info">
+                                <h4>أحمد محمد</h4>
+                                <p>عميل دائم</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"تشيز كيك التوت هنا هو الأفضل على الإطلاق! دائمًا ما أتوقف هنا لأخذ قطعة مع قهوتي المفضلة."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="Imges/translation/nora.png" alt="نورا">
+                            </div>
+                            <div class="author-info">
+                                <h4>نورا عبدالله</h4>
+                                <p>زائرة أسبوعية</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"مكاني المفضل للاجتماعات العملية. الإنترنت سريع والقهوة ممتازة. أوصي بكافيه موكا الخاص بهم!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="Imges/translation/khaled.png" alt="خالد">
+                            </div>
+                            <div class="author-info">
+                                <h4>خالد سعيد</h4>
+                                <p>رجل أعمال</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <p class="testimonial-text">"أحب الجو الهادئ هنا في الصباح الباكر. أفضل طريقة لبدء يومي هي بفنجان من قهوتهم المميزة."</p>
+                        <div class="testimonial-author">
+                            <div class="author-img">
+                                <img src="Imges/translation/sara.png" alt="سارة">
+                            </div>
+                            <div class="author-info">
+                                <h4>سارة علي</h4>
+                                <p>كاتبة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--end   testimonial-->
+         <!-- start Weather condition -->
+         <div class="weather-widget">
+            <div class="weather-header">
+                <i class="fas fa-cloud-sun"></i>
+                <h3>طقس اليوم</h3>
+            </div>
+            <div class="weather-content">
+                <div class="weather-info">
+                    <div class="temp">24°C</div>
+                    <div class="description">غائم جزئياً</div>
+                    <div class="location"><i class="fas fa-map-marker-alt"></i> الرياض</div>
+                </div>
+                <div class="coffee-recommendation">
+                    <div class="recommendation-icon">☕</div>
+                    <p>الجو معتدل اليوم، نوصي بـ <span>قهوة فيلتر سموث</span> مع نوتيلا</p>
+                </div>
+            </div>
+        </div>
+         <!-- end Weather condition -->
+          <!-- start work-corner -->
+          <div class="container-center">
+              <div class="work-corner-center">
+                  <div class="work-corner-header">
+                      <i class="fas fa-laptop-code"></i>
+                      <h3>ركن القهوة والعمل</h3>
+                      <p class="subtitle">أفضل الأجواء للإنتاجية والإبداع</p>
+                  </div>
+                  
+                  <div class="work-features">
+                      <div class="feature-card">
+                          <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                          <h4>أوقات العمل المثالية</h4>
+                          <div class="time-slots">
+                              <div class="time-slot">
+                                  <span class="time">8:00 - 10:00 ص</span>
+                                  <div class="progress-bar quiet" style="width: 30%"></div>
+                                  <span class="status">هادئ</span>
+                              </div>
+                              <div class="time-slot">
+                                  <span class="time">2:00 - 4:00 م</span>
+                                  <div class="progress-bar moderate" style="width: 60%"></div>
+                                  <span class="status">معتدل</span>
+                              </div>
+                              <div class="time-slot">
+                                  <span class="time">7:00 - 9:00 م</span>
+                                  <div class="progress-bar busy" style="width: 85%"></div>
+                                  <span class="status">مزدحم</span>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div class="feature-card">
+                          <div class="feature-icon"><i class="fas fa-chair"></i></div>
+                          <h4>أماكن مفضلة</h4>
+                          <div class="spot-list">
+                              <div class="spot">
+                                  <i class="fas fa-map-marker-alt"></i>
+                                  <div>
+                                      <h5>الزاوية الشمالية</h5>
+                                      <p>إضاءة طبيعية ممتازة</p>
+                                  </div>
+                              </div>
+                              <div class="spot">
+                                  <i class="fas fa-plug"></i>
+                                  <div>
+                                      <h5>الكاونتر المركزي</h5>
+                                      <p>3 مقابس كهرباء متاحة</p>
+                                  </div>
+                              </div>
+                              <div class="spot">
+                                  <i class="fas fa-wifi"></i>
+                                  <div>
+                                      <h5>طاولة الزاوية</h5>
+                                      <p>أقوى إشارة واي فاي</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="work-tips">
+                      <h4><i class="fas fa-lightbulb"></i> نصائح للعمل المثالي:</h4>
+                      <ul>
+                          <li>احضر سماعات إلغاء الضوضاء للأوقات المزدحمة</li>
+                          <li>استفد من عروض القهوة الصباحية</li>
+                          <li>حافظ على هدوئك واحترم خصوصية الآخرين</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+           <!-- end work-corner -->
+            <!-- start music -->
+            <div class="music-corner-container">
+                <div class="music-corner">
+                    <div class="music-header">
+                        <i class="fas fa-music"></i>
+                        <h3>الموسيقى الحية في المقهى الآن</h3>
+                        <p class="live-badge"><span class="pulse"></span> LIVE</p>
+                    </div>
+                    
+                    <div class="now-playing">
+                        <div class="album-art">
+                            <img src="https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="ألبوم">
+                            <div class="vinyl"></div>
+                        </div>
+                        
+                        <div class="track-info">
+                            <h4 class="song-title">قهوة الصباح</h4>
+                            <p class="artist">فرقة نغم</p>
+                            
+                            <div class="progress-container">
+                                <div class="progress-bar" style="width: 65%"></div>
+                                <span class="time">2:45</span>
+                                <span class="time">4:20</span>
+                            </div>
+                            
+                            <div class="player-controls">
+                                <button class="control-btn"><i class="fas fa-step-backward"></i></button>
+                                <button class="control-btn play-btn"><i class="fas fa-play"></i></button>
+                                <button class="control-btn"><i class="fas fa-step-forward"></i></button>
+                                <button class="volume-control"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="playlist">
+                        <h4><i class="fas fa-list"></i> قائمة التشغيل القادمة</h4>
+                        <ul>
+                            <li class="upcoming-track">
+                                <span class="track-number">1</span>
+                                <span class="track-name">نسمات المساء</span>
+                                <span class="track-artist">موسيقى الهادئة</span>
+                                <span class="track-duration">3:15</span>
+                            </li>
+                            <li class="upcoming-track">
+                                <span class="track-number">2</span>
+                                <span class="track-name">إيقاع المدينة</span>
+                                <span class="track-artist">جاز الحديث</span>
+                                <span class="track-duration">4:30</span>
+                            </li>
+                            <li class="upcoming-track">
+                                <span class="track-number">3</span>
+                                <span class="track-name">قهوة وعود</span>
+                                <span class="track-artist">فرقة نغم</span>
+                                <span class="track-duration">3:45</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="music-schedule">
+                        <h4><i class="far fa-calendar-alt"></i> جدول العروض الموسيقية</h4>
+                        <div class="schedule-days">
+                            <div class="day active">السبت<br>فرقة نغم</div>
+                            <div class="day">الأحد<br>جاز الحديث</div>
+                            <div class="day">الإثنين<br>عزف منفرد</div>
+                            <div class="day">الثلاثاء<br>موسيقى عالمية</div>
+                            <div class="day">الأربعاء<br>فرقة نغم</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- end music -->
+              <!-- start contact  -->
+              <div class="contact-section">
+                <div class="contact-container">
+                    <!-- العنوان والوصف -->
+                    <div class="contact-header">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <h2>تواصل معنا</h2>
+                        <p>نرحب بآرائك واستفساراتك على مدار الساعة</p>
+                    </div>
+            
+                    <!-- نموذج التواصل -->
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">الاسم بالكامل</label>
+                                <input type="text" id="name" placeholder="أدخل اسمك" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">البريد الإلكتروني</label>
+                                <input type="email" id="email" placeholder="example@email.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">الموضوع</label>
+                                <select id="subject" required>
+                                    <option value="" disabled selected>اختر موضوع الرسالة</option>
+                                    <option value="reservation">حجز طاولة</option>
+                                    <option value="complaint">شكوى</option>
+                                    <option value="suggestion">اقتراح</option>
+                                    <option value="cooperation">تعاون تجاري</option>
+                                    <option value="other">استفسار آخر</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">الرسالة</label>
+                                <textarea id="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> إرسال الرسالة
+                            </button>
+                        </form>
+                    </div>
+            
+                    <!-- معلومات التواصل -->
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>عنوان المقهى</h3>
+                            <p>شارع الملك عبدالله، الرياض 12345</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>اتصل بنا</h3>
+                            <p>+966 11 234 5678</p>
+                            <p>للحجوزات: +966 11 234 5679</p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>البريد الإلكتروني</h3>
+                            <p>info@coffee-cafe.com</p>
+                            <p>للتعاون التجاري: business@coffee-cafe.com</p>
+                        </div>
+                    </div>
+            
+                    <!-- خرائط جوجل -->
+                    <div class="contact-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.862628061648!2d46.67541541500178!3d24.81347758407512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ4JzQ4LjUiTiA0NsKwNDAnNDEuNiJF!5e0!3m2!1sen!2ssa!4v1620000000000!5m2!1sen!2ssa" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+            
+                    <!-- وسائل التواصل الاجتماعي -->
+                    <div class="social-media">
+                        <h3>تابعنا على وسائل التواصل</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-snapchat"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               <!-- end contact -->
+    <script src="script.js"></script>
+</body>
+</html>
